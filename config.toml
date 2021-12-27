@@ -1,0 +1,11 @@
+url = "http://localhost:4242/"
+
+[user]
+    name = "user"
+
+[folders]
+    [folders.Documents]
+        path = "/home/user/Documents"
+
+    [folders.Images]
+        path = "/home/user/Images"

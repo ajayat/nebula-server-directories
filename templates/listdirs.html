@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2>Liste des ressources: </h2>
+<ul>
+{% for dir in dirs %}
+    <li><a href="{{ parent_url }}/{{ dir }}">{{ dir }}</a>
+{% endfor %}
+</ul>
+{% endblock %}
